@@ -8,7 +8,7 @@ sf::RenderWindow window(sf::VideoMode(800, 600), "Asteroids");
 // Main game loop that continues as long as the window is open
 
 sf::Texture texture;
-if (!texture.loadFromFile("space_background.jpg"))
+if (!texture.loadFromFile("assets/images/space_background.jpg"))
     return EXIT_FAILURE;
 sf::Sprite sprite(texture);
 
